@@ -1,0 +1,69 @@
+# merge test from merge quiz
+I definitions.inc
+# Part 1
+> init
+<<<
++ hello.txt HelloWorld.txt
++ game.txt LetsPlay2048.txt
+> add hello.txt
+<<<
+> add game.txt
+<<<
+> commit "Create hello.txt and game.txt"
+<<<
+> branch proj3
+<<<
++ hello.txt HelloFriends.txt
++ deque.txt Resizing.txt
+> add hello.txt
+<<<
+> add deque.txt
+<<<
+> commit "Edit hello.txt and deque.txt"
+<<<
+> checkout proj3
+<<<
++ design.txt HeresMyIdea.txt
+> add design.txt
+<<<
+> rm game.txt
+<<<
+> commit "Add design.txt, rm game.txt"
+<<<
+# Part 2
+> merge master
+<<<
+= hello.txt HelloFriends.txt
+= design.txt HeresMyIdea.txt
+= deque.txt Resizing.txt
+* game.txt
+> rm deque.txt
+<<<
++ design.txt HeresMyIdeaLets.txt
++ hello.txt HelloEveryone.txt
+> add hello.txt
+<<<
+> add design.txt
+<<<
+> commit "Delete deque.txt and change design.txt, hello.txt"
+<<<
+> checkout master
+<<<
+> rm game.txt
+<<<
++ hello.txt Hello61B.txt
++ deque.txt ResizingIdkHowTo.txt
+> add hello.txt
+<<<
+> add deque.txt
+<<<
+> commit "Change deque.txt, hello.txt, and delete game.txt"
+<<<
+# Part 3
+> merge proj3
+Encountered a merge conflict.
+<<<
+= hello.txt mergedHello.txt
+= deque.txt mergedDeque.txt
+= design.txt HeresMyIdeaLets.txt
+* game.txt
