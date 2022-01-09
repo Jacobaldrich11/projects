@@ -10,6 +10,8 @@ where N is the total number of commits and D is the total file data for each com
 immensely difficult, coming out of it, I found myself to be a better programmer and attained a familiarity 
 with Java that may even surpass Python.
 
+![alt text](https://github.com/Jacobaldrich11/projects/blob/main/gitlet.png?raw=true)
+
 ## Random Tile Generator & Interactive Game
 
 This project was a much simpler task than the 
