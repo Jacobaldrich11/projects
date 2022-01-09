@@ -12,17 +12,6 @@ with Java that may even surpass Python.
 
 ![alt text](https://github.com/Jacobaldrich11/projects/blob/main/images/gitlet.png)
 
-## Random Tile Generator & Interactive Game
-
-This project was a much simpler task than the 
-others that came before, however I still managed to learn a great deal from it. Piggybacking off the 
-hit indie game, <i>Hollow Knight</i>, this game acts as a very simple rogue-like dungeon where the 
-objective is to collect every coin on the screen in less than <i>x</i> moves. This project includes 
-relatively advanced features, such as [saving, loading, random tile generation, custom assets, etc] 
-all while using a horribly outdated library for rendering!</p>
-
-![alt text](https://github.com/Jacobaldrich11/projects/blob/main/images/maze.gif)
-
 ## Risc V CPU Built in Logism 
 
 Custom RISC V CPU built in Logisim. Has a custom ALU, Register design,
@@ -42,3 +31,13 @@ gives us a 3x overall speedup from a naive implementation, with matrix powering 
 
 ![alt text](https://github.com/Jacobaldrich11/projects/blob/main/images/numC.png)
 
+## Random Tile Generator & Interactive Game
+
+This project was a much simpler task than the 
+others that came before, however I still managed to learn a great deal from it. Piggybacking off the 
+hit indie game, <i>Hollow Knight</i>, this game acts as a very simple rogue-like dungeon where the 
+objective is to collect every coin on the screen in less than <i>x</i> moves. This project includes 
+relatively advanced features, such as [saving, loading, random tile generation, custom assets, etc] 
+all while using a horribly outdated library for rendering!</p>
+
+![alt text](https://github.com/Jacobaldrich11/projects/blob/main/images/maze.gif)
