@@ -21,6 +21,8 @@ objective is to collect every coin on the screen in less than <i>x</i> moves. Th
 relatively advanced features, such as [saving, loading, random tile generation, custom assets, etc] 
 all while using a horribly outdated library for rendering!</p>
 
+![alt text](https://github.com/Jacobaldrich11/projects/blob/main/images/maze.gif)
+
 ## Risc V CPU Built in Logism 
 
 Custom RISC V CPU built in Logisim. Has a custom ALU, Register design,
@@ -29,9 +31,14 @@ Program Counter. Also features a custom-made control logic unit and support for 
 plans to implement I/O, caching, branch predictors, a 5-stage pipeline, floating-point support, SIMD support, 
 written in Verilog.
 
+![alt text](https://github.com/Jacobaldrich11/projects/blob/main/images/cpu.png)
+
 ## NumPy Clone Built in C 
 
 Close copy of NumPy built inside of C. Takes advantage of multiple 
 optimizations in order to implement fast matrix operations, including Intel SIMD intrinsics, parallel 
 processing using OpenMP, cache blocking, and a repeated squaring algorithm for matrix powering. This 
 gives us a 3x overall speedup from a naive implementation, with matrix powering giving us a 800x speedup.
+
+![alt text](https://github.com/Jacobaldrich11/projects/blob/main/images/numC.png)
+
