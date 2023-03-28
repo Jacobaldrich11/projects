@@ -1,6 +1,3 @@
-
-
-========================
 Gitlet Class Reference
 ========================
 
@@ -138,7 +135,6 @@ classes DumpObj, Dumpable, GitletException, Utils
 
 
     	
-========================
 Gitlet Testing Reference
 ========================
     	
