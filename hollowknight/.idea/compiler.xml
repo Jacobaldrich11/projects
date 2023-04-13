@@ -9,13 +9,13 @@
         <module name="proj3" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="proj3" target="7" />
+    <bytecodeTargetLevel target="15">
+      <module name="proj3" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="proj3" options="-J-XX:+ShowCodeDetailsInExceptionMessages" />
+      <module name="proj3" options="" />
     </option>
   </component>
 </project>
